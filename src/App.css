@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  display:flex;
+  justify-content: center;
 }
 
 .App-logo {
@@ -36,3 +37,85 @@
     transform: rotate(360deg);
   }
 }
+
+
+.bg{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(38,174,96,1) 0%, rgba(0,128,55,1) 100%); 
+  
+}  
+h6{
+  color: white;
+}
+h6:hover{
+  color:black;
+}
+.m{
+  height:650px;
+ 
+}
+
+.but{
+  height:900px;
+ background-color: #2B2B52;
+ 
+}
+.but0{
+  
+  color:white;
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+
+}
+.but1{
+
+ 
+ color:white;
+}
+.but2{
+  margin-top: 10px;
+  background: #b92b27;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+ color:white;
+}
+
+.but3{
+margin-top: 10px;
+background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ color:white;
+ }
+ .vi{
+  background-color: #deb075;
+ }
+ .txt{
+   color: white;
+ }
+ .vii{
+  background: #F2994A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+ }
+ .h{
+   color:black;
+ }
+ .viii{
+   background-color: #2F363F;
+ }
+ .logo{
+   width:50px;
+   height:50px;
+ }
+ .logo1{
+   margin-top: 40px;
+   width: 300px;
+   height: 300px;
+ }
+
