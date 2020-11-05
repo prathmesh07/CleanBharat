@@ -24,7 +24,7 @@ export default function Header() {
                       </Nav>
                     <Nav>
                      <Nav.Link   href="/"><h6>Home</h6></Nav.Link>
-                      <Nav.Link   href="/news"><h6>News</h6></Nav.Link>
+                      <Link to="/news"><h6>News</h6></Link>
                      <Nav.Link  href="/team"><h6>Team</h6></Nav.Link>
       
                       </Nav>
