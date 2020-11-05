@@ -20,16 +20,14 @@ function App() {
   return (
  
     <Router>
-      <div>
         <Switch>
-        <Route path="/" component={Home} exact={true}/>
+        <Route path="/" component={Home} exact/>
         <Route path="/report" component={Report} />
         <Route path="/team" component={Team} />
         <Route path="/news" component={News} />
         <Route path="/newsf" component={Newsf} />
         <Route path="/info" component={Info} />
         </Switch>
-      </div>
     </Router>
   
   );
