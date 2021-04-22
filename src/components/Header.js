@@ -9,7 +9,7 @@ import {Link, BrowserRouter as Router} from 'react-router-dom'
 export default function Header() {
     return (
         <div>
-            <Router>
+    
             <Navbar fixed="top" collapseOnSelect expand="lg" className="bg" variant="dark" >
             <img
       className="logo"
@@ -23,14 +23,14 @@ export default function Header() {
                     <Nav className="mr-auto">
                       </Nav>
                     <Nav>
-                     <Nav.Link   href="/"><h6>Home</h6></Nav.Link>
+                     <Link   to="/"><h6>Home</h6></Link>
                       <Link to="/news"><h6>News</h6></Link>
-                     <Link  to="/team"><h6>Team</h6></Nav.Link>
+                     <Link  to="/team"><h6>Team</h6></Link>
       
                       </Nav>
              </Navbar.Collapse>
             </Navbar>
-            </Router>
+        
         </div>
     )
 }
