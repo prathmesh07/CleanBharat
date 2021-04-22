@@ -29,7 +29,7 @@ function App() {
         <Route path="/newsf" component={Newsf} />
         <Route path="/info" component={Info} />
   
-    </Router>
+    </BrowserRouter>
   
   );
 }
